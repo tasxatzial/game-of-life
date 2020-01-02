@@ -50,7 +50,6 @@ int main(int argc, char **argv) {
 void load_world_from_file(char *filename, int *worldX, int *worldY, char ***world, char ***next_world) {
     FILE *fp;
     int i, j;
-    int state;
 
     fp = fopen(filename, "r");
     if (fp == NULL) {

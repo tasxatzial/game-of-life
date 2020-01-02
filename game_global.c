@@ -49,7 +49,7 @@ int main(int argc, char **argv) {
  */
 void load_world_from_file(char *filename) {
     FILE *fp;
-    int i, j, state;
+    int i, j;
 
     fp = fopen(filename, "r");
     if (fp == NULL) {
